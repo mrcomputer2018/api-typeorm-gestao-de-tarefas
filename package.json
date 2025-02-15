@@ -32,7 +32,7 @@
         "start": "ts-node src/server.ts",
         "typeorm": "typeorm-ts-node-commonjs",
         "format": "npx prettier --write .",
-        "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+        "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
         "test": "echo \"Error: no test specified\" && exit 1",
         "migration:run": "npx typeorm-ts-node-commonjs -d ./src/database/data-source.ts migration:run"
     }
